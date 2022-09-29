@@ -26,6 +26,9 @@ The best results:
 
 ## Introduction
 
+The best results are obtained by two methods:
+
+(1) The first is the ***ensemble model*** with ***test time augmentation*** based on the modified ***[YOLOv5](https://github.com/ultralytics/yolov5/tree/v6.0)*** with attention modules. Specifically, the ***[Squeeze-and-Excitation Block](https://github.com/hujie-frank/SENet)*** is 
 
 ## Install
 
