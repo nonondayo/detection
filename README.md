@@ -5,15 +5,15 @@ This repository contains source code and trained models for Crowdsensing-based R
 
 The best results:
 
-① Overall (6 countries): 0.718948143228892
+① Overall (6 countries): 0.727400750059923
 
 ② India: 0.54306770700001
 
-③ Japan: 0.713229978629293
+③ Japan: 0.724084564663629
 
-④ Norway: 0.466227275966461
+④ Norway: 0.477703634444258
 
-⑤ United States: 0.766491854640328
+⑤ United States: 0.779051476404195
 
 ## Table of Contents
 
@@ -28,8 +28,7 @@ The best results:
 
 The best results are obtained by two methods:
 
-(1) The first is the ***ensemble model*** with ***test time augmentation*** based on the modified ***[YOLOv5](https://github.com/ultralytics/yolov5/tree/v6.0)*** with attention modules. Specifically, the ***[Squeeze-and-Excitation Block](https://github.com/hujie-frank/SENet)*** is 
-
+(1) The first is the ***ensemble model*** with ***test time augmentation*** based on the modified ***[YOLOv5](https://github.com/ultralytics/yolov5/tree/v6.0)*** with attention modules. Specifically, the ***[Squeeze-and-Excitation Block](https://github.com/hujie-frank/SENet)*** and the ***[Coordinate Attention Block](https://github.com/Andrew-Qibin/CoordAttention)*** were used.
 ## Install
 
 
