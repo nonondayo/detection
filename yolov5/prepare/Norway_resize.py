@@ -32,9 +32,9 @@ def resizexml(xmlpath, newimgsize, outputpath):
 
 
 if __name__ == '__main__':
-    origin_path = os.path.join("D:/CRDDC2022/yolov5-6.0/datasets/RDD2022/Norway/train/images")
-    output_path = os.path.join("D:/CRDDC2022/yolov5-6.0/datasets/RDD2022/Norway_resize")
-    test_path = os.path.join("D:/CRDDC2022/yolov5-6.0/datasets/RDD2022/Norway/test/images")
+    origin_path = os.path.join("../datasets/RDD2022/Norway/train/images")
+    output_path = os.path.join("../datasets/RDD2022/Norway_resize")
+    test_path = os.path.join("../datasets/RDD2022/Norway/test/images")
     imgsize = 640
 
     makedir(output_path)
