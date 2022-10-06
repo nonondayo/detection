@@ -114,7 +114,7 @@ python prepare/prepare_data_txt.py
 ```
 5. Use `prepare/prepare_test_imgs.py` to move test images to `datasets/RDD2022/testimgs`. Note that test images from `Norway` and `China_Drone` are not included. There will be 6,995 images under `datasets/RDD2022/testimgs`.
 ```
-python prepare/prepare_data_txt.py
+python prepare/prepare_test_imgs.py
 ```
 6. Download weights in [SGG-RS-GROUP Model Zoo](https://drive.google.com/drive/folders/16oJ03noL5DE1-D1HLUAxSEP0lixbbfnf?usp=sharing). Then move the weights to `weights/`. Details of the training process are in [Training](#training).
 ## Detection and Submission
